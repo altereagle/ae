@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Lame ass font';
+  font-family: 'Finger Paint';
   font-style: normal;
   font-weight: 400;
   src: local('Finger Paint'), local('FingerPaint-Regular'), url(http://themes.googleusercontent.com/static/fonts/fingerpaint/v1/m_ZRbiY-aPb13R3DWPBGX6RDOzjiPcYnFooOUGCOsRk.woff) format('woff');
@@ -9,5 +9,12 @@
 
 body{
     margin:0;
-    font-family: 'Lame ass font';
+    font-family: 'Finger Paint';
+    box-shadow: inset 0 0px 100px 0px #000;
+}
+#supbro {
+    position: absolute;
+    font-size: 3em;
+    top: 5%;
+    left: 5%;
 }
