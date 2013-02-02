@@ -1,0 +1,91 @@
+@charset "utf-8";
+div#myToolBox {
+	z-index:2;
+	opacity:.7;
+	text-align:center;
+	position:fixed;
+	top: 10px;
+	left: 50px;
+	padding:5px;
+	width:30px;
+	height:auto;
+	background-color:#E2E2E2;
+	border: 1px solid #999;
+	border-radius:3px;
+	background-image: linear-gradient(right bottom, rgb(194,194,194) 12%, rgb(230,230,230) 78%);
+	background-image: -o-linear-gradient(right bottom, rgb(194,194,194) 12%, rgb(230,230,230) 78%);
+	background-image: -moz-linear-gradient(right bottom, rgb(194,194,194) 12%, rgb(230,230,230) 78%);
+	background-image: -webkit-linear-gradient(right bottom, rgb(194,194,194) 12%, rgb(230,230,230) 78%);
+	background-image: -ms-linear-gradient(right bottom, rgb(194,194,194) 12%, rgb(230,230,230) 78%);
+	background-image: -webkit-gradient(
+		linear,
+		right bottom,
+		left top,
+		color-stop(0.12, rgb(194,194,194)),
+		color-stop(0.78, rgb(230,230,230))
+	);
+}
+div#myToolBox:hover {
+	opacity:1;
+}
+img.myTool {
+	height:30px;
+	width:30px;
+	cursor:pointer;
+	background-image: url('../images/interface.png');
+}
+
+img.tool_hand {
+	background-position: -254px 0px;
+}
+img.tool_hand:hover {
+	background-position: -220px 0px;
+}
+img.tool_select {
+	background-position: -254px -30px;
+}
+img.tool_select:hover {
+	background-position: -220px -30px;
+}
+img.tool_measure {
+	background-position: -254px -60px;
+}
+img.tool_measure:hover {
+	background-position: -220px -60px;
+}
+img.tool_identify {
+	background-position: -254px -90px;
+}
+img.tool_identify:hover {
+	background-position: -220px -90px;
+}
+img.tool_search {
+	background-position: -254px -120px;
+}
+img.tool_search:hover {
+	background-position: -220px -120px;
+}
+img.tool_drawPoly {
+	background-position: -254px -150px;
+}
+img.tool_drawPoly:hover {
+	background-position: -220px -150px;
+}
+img.tool_drawLine {
+	background-position: -254px -180px;
+}
+img.tool_drawLine:hover {
+	background-position: -220px -180px;
+}
+img.tool_attributeTable {
+	background-position: -254px -210px;
+}
+img.tool_attributeTable:hover {
+	background-position: -220px -210px;
+}
+img.tool_graphs {
+	background-position: -254px -240px;
+}
+img.tool_graphs:hover {
+	background-position: -220px -240px;
+}
