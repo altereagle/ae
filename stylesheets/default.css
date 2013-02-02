@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Lame ass font';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Finger Paint'), local('FingerPaint-Regular'), url(http://themes.googleusercontent.com/static/fonts/fingerpaint/v1/m_ZRbiY-aPb13R3DWPBGX6RDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+/* Fonts Go Above Here*/
+
+body{
+    margin:0;
+    font-family: 'Lame ass font';
+}

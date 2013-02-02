@@ -1,3 +1,5 @@
+.DS_Store
+.c9revisons
 *.py[cod]
 
 # C extensions
