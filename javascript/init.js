@@ -1,19 +1,33 @@
+// vins variables
+var imagename = "sitesignature.png";
+var imageSettings = {
+    height: "86px",
+    width: "275px"
+};
 
 $(function () {
     var app = $('body');
     var client = {};
     
-    client.DELETEME = (function(){
-       var div = $('<div />')
-            .attr('id','supbro')
-            .html('This font makes comic sans look good. Find a better one, or this is going to be the default. ')
-            .append(
-                $('<a />')
-                    .html('How do you know this wont take you to Live Jasmine?')
-                    .attr('href', 'http://www.google.com/webfonts')
-            )
+    client.splashImage = (function(){
+       var div = $('<img />')
+            .attr('id','logo')
+            .attr('src','images/' + imagename)
+            .css(imageSettings)
             .appendTo(app);
        return div;
     })();
+    centerElement(client.splashImage);
+    
+    function centerElement(element) {
+        console.log(element.width(),$(document).width())
+        var x = $(document).width() / 2 - (element.width()/2) - (parseInt(element.css("padding"), 10) / 2);
+        var y = $(document).height() / 2 - (element.height()/2) - (parseInt(element.css("padding"), 10) / 2);
+        element.css({
+            position: "absolute",
+            left: x,
+            top: y
+        });
+    }
     
 });		

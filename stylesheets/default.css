@@ -1,20 +1,23 @@
-@font-face {
-  font-family: 'Finger Paint';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Finger Paint'), local('FingerPaint-Regular'), url(http://themes.googleusercontent.com/static/fonts/fingerpaint/v1/m_ZRbiY-aPb13R3DWPBGX6RDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
-
-/* Fonts Go Above Here*/
-
 body{
     margin:0;
-    font-family: 'Finger Paint';
-    box-shadow: inset 0 0px 100px 0px #000;
+    font-family: 'Myriad Pro';
+    background: #feffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #feffff 57%, #dae7ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(57%,#feffff), color-stop(100%,#dae7ed)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #feffff 57%,#dae7ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #feffff 57%,#dae7ed 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #feffff 57%,#dae7ed 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #feffff 57%,#dae7ed 100%); /* W3C */
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.21, rgb(175,62,171)),
+        color-stop(0.61, rgb(210,93,206)),
+        color-stop(0.81, rgb(252,121,248))
+    );
 }
-#supbro {
+
+#logo {
     position: absolute;
-    font-size: 3em;
-    top: 5%;
-    left: 5%;
 }
